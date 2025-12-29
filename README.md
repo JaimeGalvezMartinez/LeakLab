@@ -39,8 +39,7 @@ Puerto 9100/TCP: Puerto Por defecto de Node Exporter.
 
 2. Acceso no autorizado a Node Exporter
 
-   <img width="1233" height="568" alt="Captura de pantalla de 2025-12-29 21-51-21" src="https://github.com/user-attachments/assets/eacff5c5-164c-4932-9835-5809fe051619" />
-
+<img width="1233" height="568" alt="Captura de pantalla de 2025-12-29 21-51-21" src="https://github.com/user-attachments/assets/eacff5c5-164c-4932-9835-5809fe051619" />
 
 Durante el desarrollo del laboratorio se detectó que el servicio Node Exporter se encontraba expuesto y accesible sin ningún tipo de autenticación. Al acceder a la dirección IP del servidor seguida del puerto correspondiente (por defecto 9100), fue posible visualizar directamente la interfaz web del servicio sin necesidad de introducir credenciales.
 
