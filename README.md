@@ -61,3 +61,5 @@ Permitir acceso solo desde la IP del servidor de monitorización
 
 Bloquear el acceso desde redes externas
 
+## 3. Listado de subdirectorios, y filtrado de credenciales.
+
