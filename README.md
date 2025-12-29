@@ -46,3 +46,18 @@ Durante el desarrollo del laboratorio se detectó que el servicio Node Exporter 
 Esta mala configuración supone una vulnerabilidad de seguridad, ya que <strong>Node Exporter proporciona métricas detalladas sobre el sistema, como el uso de CPU, memoria, disco, procesos y otra información sensible</strong> que podría ser utilizada por un atacante para realizar tareas de enumeración y planificación de ataques posteriores.
 
 El acceso sin autenticación permite a cualquier usuario con conectividad a la red obtener información crítica del sistema, incumpliendo los principios básicos de seguridad como el control de acceso y la exposición mínima de servicios.
+
+### Mitigaciones para Node Exporter accesible sin autenticación
+
+Node Exporter no incorpora autenticación por defecto, por lo que es fundamental proteger su acceso mediante otras medidas de seguridad. Por ejemplo:
+
+### - Restringir el acceso mediante firewall
+
+Configurar el firewall del sistema para permitir el acceso al puerto 9100 únicamente desde el servidor Prometheus o desde direcciones IP autorizadas.
+
+## Ejemplo:
+
+Permitir acceso solo desde la IP del servidor de monitorización
+
+Bloquear el acceso desde redes externas
+
